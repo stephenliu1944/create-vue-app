@@ -14,7 +14,7 @@ export default merge(baseConfig, {
   devtool: 'cheap-module-source-map',
   devServer: {
     host: '0.0.0.0',
-    allowedHosts: ['local.jgjapp.com'],
+    // allowedHosts: ['local.xxx.com'],
     port: servers.local,
     http2: false,
     https: false,
