@@ -160,8 +160,8 @@ export default function(env) {
           }]
         }, {
           /**
-                     * 第三方样式
-                     */
+           * 第三方样式
+           */
           test: /\.(css|less)$/,
           exclude: path.resolve(__dirname, 'src'),
           use: [
@@ -188,8 +188,8 @@ export default function(env) {
           }
         }, {
           /**
-             * 全局字体
-             */
+           * 全局字体
+           */
           test: /\.(woff|woff2|eot|ttf|svg|ttc)$/,
           type: 'asset/resource',
           generator: {
